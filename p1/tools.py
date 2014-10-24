@@ -159,7 +159,7 @@ def clumpfinder(genome, k, length, t):
 f = open("vc_genome.txt", "r")
 vc_gen = f.read()
 gen = "CGGACTCGACAGATGTGAAGAACGACAATGTGAAGACTCGACACGACAGAGTGAAGAGAAGAGGAAACATTGTAA"
-
         
 
-print clumpfinder(gen, 5, 50, 4)
+#print clumpfinder(gen, 5, 50, 4)
+print computingfrequencies(gen[:50], 5)
