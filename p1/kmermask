@@ -1,0 +1,14 @@
+kmer = "AAA"
+mmlist = [["$","0","0"], ["0","$","0"], ["0","0","$"]]
+kmermask = ""
+kmermasklist= []
+
+for i in mmlist:
+    kmermask="AAA"
+    for j in range(len(i)):
+        kmermask="AAA"
+        if i[j]=="$":
+            kmermask[j]=="$"
+            kmermasklist.append(kmermask[j])
+
+print kmermasklist
